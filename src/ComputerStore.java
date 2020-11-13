@@ -46,24 +46,24 @@ public class ComputerStore {
             {
                 case 1 :
                     ComputerA.rename(Nn);
-                    System.out.println("Rename successfully");
+                    System.out.println("\nRename successfully");
                     ComputerA.print(ComputerA.name);
                 break;
 
                 case 2 :
                     ComputerB.rename(Nn);
-                    System.out.println("Rename successfully");
+                    System.out.println("\nRename successfully");
                     ComputerB.print(ComputerB.name);
                 break;
 
                 case 3 :
                     ComputerX.rename(Nn);
-                    System.out.println("Rename successfully");
-                    ComputerX.print(ComputerA.name);
+                    System.out.println("\nRename successfully");
+                    ComputerX.print(ComputerX.name);
                 break;
 
                 default :
-                    System.out.println("You are so strange! I can't finish this command.");
+                    System.out.println("You are so strange! Rename failed.");
             }
             if (x == 0) break;
         }
