@@ -30,11 +30,11 @@ public class ComputerStore {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ComputerStore ComputerA = new ComputerStore("ComputerA", Intel.cpu1, Samsung.memory1, Seagate.ssd1, Asus.MainBoard1);
+        ComputerStore ComputerA = new ComputerStore("ComputerA", Intel.cpu1, GSkill.memory1, Seagate.ssd1, Asus.MainBoard1);
         ComputerA.print(ComputerA.name);
         ComputerStore ComputerB = new ComputerStore("ComputerB", AMD.cpu2, Kingston.memory2, Seagate.ssd2, Gigabyte.MainBoard2);
         ComputerB.print(ComputerB.name);
-        ComputerStore ComputerX = new ComputerStore("Universe TWO", AMD.cpu3, Kingston.memory3, WestDigitals.ssd3, Gigabyte.MainBoard3);
+        ComputerStore ComputerX = new ComputerStore("Universe TWO", AMD.cpu3, KLEVV.memory3, WestDigitals.ssd3, Gigabyte.MainBoard3);
         ComputerX.print(ComputerX.name);
         for(;;) {//一个小型的电脑改名
             System.out.println("IF you want to rename a computer, please input 1, 2, or 3. else: input 0 to exit");
